@@ -1,0 +1,74 @@
+/* page stiling*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgba(137, 43, 226, 0.103);
+    margin: 0;
+}
+/* Title styling */
+h1 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px; /* Adds space between the title and the input */
+    text-align: center;
+}
+/* Container styling for the ToDo app */
+.ToDo-container {
+    background: rgba(171, 100, 169, 0.82);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(34, 34, 217, 0.881);
+    width: 300px;
+    text-align: center; /* Center content inside the container */
+}
+
+/* Input field styling */
+#new-task {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #7d134a;
+}
+/* Add task button styling */
+#add-task-btn {
+    width: 50%;
+    padding: 10px;
+    background-color: #6c0a90;
+    color: rgba(255, 255, 255, 0.988);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Task list styling */
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual task item styling */
+.task-item {
+    background: #89588098;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Completed task style */
+.task-item.completed {
+    text-decoration: line-through;
+}
+
+/* Delete button for task items */
+.task-item button {
+    background-color:  rgb(115, 6, 159);
+    color: white(28, 1, 28, 0.135);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
